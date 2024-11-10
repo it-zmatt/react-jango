@@ -11,7 +11,7 @@ An app to learn both Django and React
     <li> Integrate NLP</li>
 </ol>
 
-### First Tutorial
+### I - First Tutorial
 <ul>
     <li> Creating a virtual environment</li>
     <li> Installing Packages</li>
@@ -19,6 +19,15 @@ An app to learn both Django and React
     <li> Changing our settings</li>
     <li> Including our URLs</li>
     <li> Migrating our DB</li>
+</ul>
+
+### II - Second Tutorial
+<ul>
+    <li> Creating our React JS Frontend app</li>
+    <li> Inspecting the folder structure</li>
+    <li> Adding a componenets folder</li>
+    <li> Installing Django cors header in our backend</li>
+    <li> Changing our settings.py in our backend</li>
 </ul>
 
 
