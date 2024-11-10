@@ -1,7 +1,7 @@
 # react-jango
 An app to learn both Django and React 
 
-## First Tutorial
+### First Tutorial
 <ul>
     <li> Creating a virtual environment</li>
     <li> Installing Packages</li>
