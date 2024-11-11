@@ -38,4 +38,14 @@ An app to learn both Django and React
     <li> Adding Routes in our app.js file</li>
 </ul>
 
+### VI - Third Tutorial
+<ul>
+    <li> Installing Packages for Material UI</li>
+    <li> Picking our Navigation Menue</li>
+    <li> Customizing</li>
+    <li> Adding navbar to App.js file</li>
+    <li> Fitting our content in the remaining space</li>
+    <li> Making our navigation menu responsive</li>
+</ul>
+
 
