@@ -48,4 +48,9 @@ An app to learn both Django and React
     <li> Making our navigation menu responsive</li>
 </ul>
 
+### V - Fifth Tutorial
+<ul>
+    <li> Setting up Django: Views, Serializer, URLs</li>
+</ul>
+
 
