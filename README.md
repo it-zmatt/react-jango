@@ -30,5 +30,12 @@ An app to learn both Django and React
     <li> Changing our settings.py in our backend</li>
 </ul>
 
+### III - Third Tutorial
+<ul>
+    <li> Installing React Router Dom</li>
+    <li> Adding Browser Router in our Index.js file</li>
+    <li> Creating Javascript Pages</li>
+    <li> Adding Routes in our app.js file</li>
+</ul>
 
 
