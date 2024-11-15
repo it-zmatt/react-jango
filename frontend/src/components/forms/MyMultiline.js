@@ -5,7 +5,7 @@ import { Controller } from 'react-hook-form';
 
 
 const MyMultiline = (props) => {
-    const {label, placeholder, name, control} = props;
+    const {label, placeholder, name, control, width, margin, rows} = props;
 
     return (
 
@@ -19,12 +19,15 @@ const MyMultiline = (props) => {
             formState,
          }) => (
             <TextField
-            id="outlined-multiline-static"
-            label={label}
-            multiline
-            rows={4}
-            defaultValue="Hello"
-            variant="outlined"
+                sx={{width: {width}, margin: {margin}}}
+                id="outlined-multiline-static"
+                label={label}
+                placeholder={placeholder}
+                multiline
+                rows={rows}
+                variant="outlined"
+                onChange={onChange}
+                value={value}
         />
         )
         }
