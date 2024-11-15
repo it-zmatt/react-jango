@@ -6,13 +6,34 @@ import MyMultiline from './forms/MyMultiline';
 import Button from '@mui/material/Button';
 import { useForm } from 'react-hook-form';
 import Dayjs from 'dayjs';
-
-
+import MyAxios from './Axios';
 
 
 const Create = () => {
+    const defaultValues = {
+        title: '',
+        date: Dayjs().format('YYYY-MM-DD'),
+        description: '',
+    };
     const {control, handleSubmit} = useForm();
-    const submission = (data) => console.log(data);
+
+    const submission = (data) => {
+        const MyDate = Dayjs(data.date).format('YYYY-MM-DD');
+        MyAxios.post('projects/', {
+            title: data.title,
+            created: MyDate,  
+            description: data.description, 
+        })
+        .then(response => {
+            console.log(response);
+        })
+        .catch(error => {
+            console.log(error);
+        });
+
+    };
+
+
     return (
         <div>
             <Box>
